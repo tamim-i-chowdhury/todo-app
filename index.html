@@ -24,13 +24,13 @@
         <input
           type="text"
           id="todo-text"
-          class="w-full p-4 outline-none"
+          class="w-full p-4 outline-none text-2xl"
           placeholder="Type Title ..."
         />
         <button onclick="handleSubmit()" title="Add Todo">
           <i class="fa-solid fa-square-plus text-[30px] text-purple-400"></i>
         </button>
-        <button onclick="handleClearAll()" title="Clear All" class="mr-4">
+        <button onclick="handleRemoveItem()" title="Clear All" class="mr-4">
           <i class="fa-solid fa-square-minus text-[30px] text-red-400"></i>
         </button>
       </div>
@@ -38,6 +38,7 @@
         <ul id="todo-list" class="grid divide-y"></ul>
       </div>
     </div>
-    <script src="js/script.js"></script>
+    <!-- connecting js file -->
+    <script src="js/app.js"></script>
   </body>
 </html>
